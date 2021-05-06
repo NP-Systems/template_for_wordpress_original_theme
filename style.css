@@ -1,12 +1,9 @@
 @charset "UTF-8";
 /*
-Theme Name: NP-Systems3のテーマ
-Description: LIQUID PRESSテーマを元にオリジナルのものとして改変したものです
+Theme Name: Wordpressのオリジナルテーマ
+Description:Wordpressのオリジナルテーマのテンプレートです
 Author: NP-Systems
-License: GPLv2 or later
-Version: 2.0
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: blog, e-commerce, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, footer-widgets, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks
+License: MIT
 */
 /* 基本色 */
 :root {
@@ -21,74 +18,7 @@ Tags: blog, e-commerce, grid-layout, one-column, two-columns, custom-background,
 body {
 	margin: 0;
 	font-family: 'メイリオ',
-		'Hiragino Kaku Gothic Pro', 
+		'Hiragino Kaku Gothic Pro',
 		sans-serif;
+	background-color: orange;
 }
-
-
-/* コンテンツA： ヒーローイメージ */
-.conA {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
-	min-height: 450px;
-	background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("img/fruits.jpg");
-	background-position: center;
-	background-size: cover;
-	color: #fff;
-	color: var(--text-bright-color);
-	text-align: center;
-}
-
-.conA h1 {
-	margin-top: 0;
-	margin-bottom: 10px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 15vw;
-	letter-spacing: 0.2em;
-	margin-left: 0.2em;
-}
-
-.conA p {
-	margin-top: 0;
-	margin-bottom: 0;
-	font-size: 18px;
-}
-
-.conA img {
-	width: 20%;
-}
-
-.conA a {
-	display: inline-block;
-	margin-top: 20px;
-	padding: 10px 30px;
-	border: solid 3px currentColor;
-	border-radius: 6px;
-	background-color: #BF6A7A;
-	background-color: var(--accent-color);
-	color: #fff;
-	color: var(--text-bright-color);
-	font-size: 14px;
-	text-decoration: none;
-}
-
-.conA a:hover	{
-	background-image: linear-gradient(
-		rgba(255,255,255,0.2),
-		rgba(255,255,255,0.2)
-	);
-}
-
-
-@media (min-width: 768px) {
-	.conA h1 {
-		font-size: 115px;
-	}
-
-	.conA p {
-		font-size: 24px;
-	}
-}
-
